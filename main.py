@@ -1,5 +1,3 @@
-import sys
-
 from selene.browsers import BrowserName
 from selene.api import *
 from selenium import webdriver
