@@ -48,8 +48,8 @@ def createMailMessageMIME(sender, to, message, subject, filepath=None, filename=
 #Send mail function
 def send_email(msg):
     #Login information
-    account = "shuzoall@gmail.com"
-    password = "qsuyvfhjptlmqsin"
+    account = "******@gmail.com"
+    password = "*********"
     host = 'smtp.gmail.com'
     port = 465
 
@@ -118,9 +118,9 @@ def main():
                 f.write(new_elem)
             print("Product Arrived")
             #From
-            from_email = "shuzoall@gmail.com"
+            from_email = "******@gmail.com"
             #To
-            to_email = "koukakarate2009@yahoo.co.jp"
+            to_email = "*********@yahoo.co.jp"
 	    #Mail contents
             subject = "商品入荷状況"
             message = "確認してください。"
